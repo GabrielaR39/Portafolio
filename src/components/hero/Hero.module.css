@@ -1,0 +1,125 @@
+.section{
+    height: 100vh;
+    background: rgb(44, 37, 187);
+    background: transparent;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    flex: 2;
+    display: flex;
+ position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-self: flex-start;
+    margin: 130px 50px 50px 150px;
+    gap: 20px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* border: 2px solid peru; */
+}
+.btns .icon{
+    font-size: 38px;
+    color: white;
+    background: #7674755e;
+    padding: 5px;
+    border-radius: 5rem;
+}
+
+button{
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+}
+button:nth-child(2){
+    width: 13rem;
+    height: 3.6rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    color: white;
+}
+
+h1{
+    font-size: 74px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    color: #da4ea2;
+}
+span{
+    font-size: 24px;
+}
+
+.right{
+    height: 80vh;
+ flex: 3;
+ /* border: 2px solid #da4ea2; */
+ display: flex;
+ position: relative;
+ margin-right: 2rem;
+}
+
+img{
+    position: absolute;
+}
+
+.js{
+    top:7rem;
+    left: 20rem;
+}
+
+.react{
+    
+    top:17rem;
+    left: 10rem;
+}
+
+.redux{
+    top:20rem;
+    left: 25rem;    
+}
+
+.vite{
+    top: 15rem;
+    left: 18rem;
+}
+
+.node{
+    top: 22rem;
+    left: 15rem;
+}
+
+.tail{
+    top: 12rem;
+    left: 27rem;
+}
+
+.sass{
+    top: 5rem;
+    left: 29rem;
+}
+.git{
+    top: 8rem;
+    left: 8rem;
+}
+
